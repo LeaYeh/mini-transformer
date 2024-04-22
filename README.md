@@ -10,8 +10,10 @@ Reference tutorial:
 ```
 
 2. Connect vscode to running Jupyter server
-    * Control+Shift+P to open vscode command box. Choose Create: New Jupyter Notebook
-    * connect with http://127.0.0.1:8888
+    * Control+Shift+P to open vscode command box.
+        * Choose 'Existing JupyterHub Server'
+        * dummy account and password: jovyan / jovyan
+    * connect with http://127.0.0.1:8585
         * ![jupyter_vscode](./data/doc/img/jupyter_vscode.webp)
     * Select Python Kernel
         * ![jupyter_vscode2](./data/doc/img/jupyter_vscode_2.webp)
